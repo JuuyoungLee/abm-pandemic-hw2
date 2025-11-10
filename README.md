@@ -47,3 +47,6 @@ Distancing primarily limits contacts, while avoidance changes spatial mixing. Wh
 - Include vaccination, reinfection, or mortality dynamics.
 - Combine ABM with reinforcement learning to find optimal control strategies automatically.
 - Develop richer visualizations such as heatmaps or animated grid evolution to analyze spatial spread patterns.
+
+**Disclaimer:** ChatGPT (OpenAI GPT-5) was used to assist in developing the simulation structure, code formatting, and Markdown documentation for HW2 Parts A and B.
+All modeling logic, testing, and interpretation were performed and validated manually by the author.
