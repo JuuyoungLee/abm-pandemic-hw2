@@ -67,5 +67,4 @@ Distancing primarily limits contacts, while avoidance changes spatial mixing. Wh
 - Combine ABM with reinforcement learning to find optimal control strategies automatically.
 - Develop richer visualizations such as heatmaps or animated grid evolution to analyze spatial spread patterns.
 
-**Disclaimer:** ChatGPT (OpenAI GPT-5) was used to assist in designing the overall structure and logical flow of the simulation code. The AI provided high-level pseudocode and modular organization (e.g., agent definitions, infection–recovery loop, and extension points for social distancing and avoidance). 
-The author manually implemented, tuned, validated, and commented on all final codes after fully understanding the model logic and ensuring the correctness of simulation outputs.
+**Disclaimer:** ChatGPT5 provided detailed guidance on structuring the code, designing functions, and integrating extensions for social distancing and avoidance. The author implemented all final scripts, adjusted the logic, performed parameter tuning, validated simulation correctness, and generated the final figures independently.
