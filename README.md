@@ -17,6 +17,25 @@ The model explores:
 3. Social distancing using reduced movement (`move_prob`)  
 4. Avoidance of infected agents (`avoid_strength`)
 
+### Simulation Results
+
+#### Base SIR Model
+![Base Simulation](figures/base_simulation.png)  
+*Figure 1. Pandemic spread simulation under the baseline SIR model (p=0.05, q=0.05).*
+
+#### Sensitivity Analysis
+![Sensitivity Analysis](figures/sensitivity_pq.png)  
+*Figure 2. Sensitivity analysis for different infection (p) and recovery (q) probabilities.*
+
+#### Social Distancing Intervention
+![Social Distancing](figures/social_distancing.png)  
+*Figure 3. Comparing infection dynamics with and without social distancing (move_prob=0.3).*
+
+#### Avoidance Behavior
+![Avoidance Behavior](figures/avoidance.png)  
+*Figure 4. Avoidance behavior (avoid_strength=0.8) further limits infection spread by spatially separating susceptible and infected agents.*
+
+
 ## 2. Key insights
 - Infection spread follows the expected SIR dynamics: rapid infection growth, peak, then decline as recoveries rise.
 - Increasing the infection probability (p) accelerates and amplifies outbreaks, while increasing the recovery probability (q) shortens and softens them.
